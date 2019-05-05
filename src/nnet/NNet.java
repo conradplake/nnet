@@ -14,7 +14,7 @@ import java.util.Map;
  * 
  * To speed things up a little, for each neuron, its input and output neurons are cached.
  * 
- * Please be careful with the number of neurons vs. quadratic space consumtion! 
+ * Please be careful with the number of neurons vs. quadratic space consumption! 
  * This implementation is better suited for small networks.
  */
 public class NNet implements NN {
